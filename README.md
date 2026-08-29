@@ -100,6 +100,12 @@ This repo can also be used for local Kubernetes development. It is not advised t
 
 At a minimum, you will need [Docker Desktop](https://www.docker.com/products/docker-desktop) installed on your computer. For the full development environment, you will also need [Visual Studio Code](https://code.visualstudio.com) with the [Remote Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) extension from the Visual Studio Marketplace. All of these can be installed manually by clicking on the links above or you can use a package manager like **Homebrew** on Mac of **Chocolatey** on Windows.
 
+# devops-capstone-project
+
+A DevOps capstone project implementing a customer accounts microservice using Flask. 
+The service provides a RESTful API to create, read, update, delete, and list customer accounts, 
+including their name, address, and contact information. This project demonstrates 
+agile planning practices, test-driven development, and CI/CD workflows.
 Please only use these commands for working stand-alone on your own computer with the VSCode Remote Container environment provided.
 
 1. Bring up a local K3D Kubernetes cluster
